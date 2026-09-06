@@ -1,8 +1,10 @@
-## OfflineList 0.7.3 bata95 專用 遊戲 dat/xml 資料庫
+# OfflineList 0.7.3 bata95 專用 遊戲 XML/DAT 資料庫
 
 
 > [!WARNING]
 > 只支援bata95版，原版只能用單一http無SSL的網址
+
+## 以 敦煌 Super A'can 為例
 
 ### 在XML DAT中的位址更新
 

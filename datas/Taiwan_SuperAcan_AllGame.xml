@@ -30,11 +30,9 @@
 	<extension>.jpg</extension>
 </canOpen>
 <newDat>
-	<datVersionURL>https://xd9527.github.io/OfflineList_v073_beta95/datas/Taiwan_SuperAcan_AllGame.txt</datVersionURL>
-	<datURL fileName="Taiwan_SuperAcan_AllGame.zip">https://xd9527.github.io/OfflineList_v073_beta95/datas/Taiwan_SuperAcan_AllGame.zip</datURL>
-	<imURL>https://xd9527.github.io/OfflineList_v073_beta95/imgs/Taiwan_SuperAcan_AllGame/</imURL>
-	<!-- https://xd.9527.tw/offlinelist/Taiwan_SuperAcan_AllGame_imgs/  -->
-	<!-- https://xd9527.github.io/OfflineList_v073_beta95/imgs/Taiwan_Super_Acan_AllGame/  -->
+	<datVersionURL>https://xd9527.github.io/OfflineList_v073_beta95/datas/Taiwan_SuperAcan_AllGame.txt;https://xd.9527.tw/offlinelist/Taiwan_SuperAcan_AllGame.txt</datVersionURL>
+	<datURL fileName="Taiwan_SuperAcan_AllGame.zip">https://xd9527.github.io/OfflineList_v073_beta95/datas/Taiwan_SuperAcan_AllGame.zip;https://xd.9527.tw/offlinelist/Taiwan_SuperAcan_AllGame.zip</datURL>
+	<imURL>https://xd9527.github.io/OfflineList_v073_beta95/imgs/Taiwan_SuperAcan_AllGame/;https://xd.9527.tw/offlinelist/Taiwan_SuperAcan_AllGame_imgs/</imURL>
 </newDat>
 <search>
 <to value="location" default="false" auto="false"/>
@@ -273,7 +271,6 @@
 <comment>爆爆動物園</comment>
 <duplicateID>0</duplicateID>
 </game>
-
 
 <game>
 <imageNumber>0012</imageNumber>

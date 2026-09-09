@@ -56,7 +56,9 @@
 	<find operation="inNoCase" value="SPG">SPG 運動遊戲</find>
 	<find operation="inNoCase" value="RTS">RTS 即時戰略</find>
 	<find operation="inNoCase" value="ETC">ETC 其他遊戲</find>
-	<find operation="inNoCase" value="BOOK">BOOK 雜誌書頁</find>
+	<find operation="inNoCase" value="IMG">IMG 圖片合輯</find>
+	<find operation="inNoCase" value="VDO">VDO 影片合輯</find>
+	<find operation="inNoCase" value="PDF">PDF 文件合輯</find>
 </to>
 </search>
 <romTitle>%u - %e %n [%s]</romTitle>
@@ -67,7 +69,7 @@
 <imageNumber>0000</imageNumber>
 <releaseNumber>0000</releaseNumber>
 <title>Super A'can Manual</title>
-<saveType>BOOK</saveType>
+<saveType>IMG</saveType>
 <romSize>12</romSize>
 <publisher>敦煌科技</publisher>
 <location>25</location>

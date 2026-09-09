@@ -25,6 +25,7 @@
 </infos>
 <canOpen>
 	<extension>.bin</extension>
+	<extension>.jp2</extension>
 	<extension>.0</extension>
 	<extension>.1</extension>
 </canOpen>
@@ -55,11 +56,42 @@
 	<find operation="inNoCase" value="SPG">SPG 運動遊戲</find>
 	<find operation="inNoCase" value="RTS">RTS 即時戰略</find>
 	<find operation="inNoCase" value="ETC">ETC 其他遊戲</find>
+	<find operation="inNoCase" value="BOOK">BOOK 雜誌書頁</find>
 </to>
 </search>
 <romTitle>%u - %e %n [%s]</romTitle>
 </configuration>
 <games>
+
+<game>
+<imageNumber>0000</imageNumber>
+<releaseNumber>0000</releaseNumber>
+<title>Super A'can Manual</title>
+<saveType>BOOK</saveType>
+<romSize>12</romSize>
+<publisher>敦煌科技</publisher>
+<location>25</location>
+<sourceRom>敦煌科技</sourceRom>
+<language>4</language>
+<files>
+<romCRC extension=".jp2">033EFDE6</romCRC>
+<romCRC extension=".jp2">F5683F65</romCRC>
+<romCRC extension=".jp2">FDD3343B</romCRC>
+<romCRC extension=".jp2">9042D59D</romCRC>
+<romCRC extension=".jp2">8371EF70</romCRC>
+<romCRC extension=".jp2">4D60DFF6</romCRC>
+<romCRC extension=".jp2">E89D7C6D</romCRC>
+<romCRC extension=".jp2">D5409543</romCRC>
+<romCRC extension=".jp2">5A6BFCA2</romCRC>
+<romCRC extension=".jp2">36822279</romCRC>
+<romCRC extension=".jp2">E730E9D8</romCRC>
+<romCRC extension=".jp2">D355341C</romCRC>
+</files>
+<im1CRC>15AACD2F</im1CRC>
+<im2CRC>A2C79821</im2CRC>
+<comment>Super A'can 使用說明書</comment>
+<duplicateID>0</duplicateID>
+</game>
 
 <game>
 <imageNumber>0001</imageNumber>

@@ -35,11 +35,11 @@
 	<imURL>https://xd9527.github.io/OfflineList_v073_beta95/imgs/Taiwan_SuperAcan_AllGame/;https://xd.9527.tw/offlinelist/Taiwan_SuperAcan_AllGame_imgs/</imURL>
 </newDat>
 <search>
-<to value="location" default="false" auto="false"/>
-<to value="publisher" default="true" auto="true"/>
-<to value="sourceRom" default="true" auto="true"/>
+<to value="location" default="false" auto="false"></to>
+<to value="publisher" default="true" auto="true"></to>
+<to value="sourceRom" default="true" auto="true"></to>
 <to value="languages" default="false" auto="false"></to>
-<to value="saveType" default="true" auto="true">
+<to value="saveType" default="true" auto="false">
 	<find operation="inNoCase" value="ACT">ACT 動作遊戲</find>
 	<find operation="inNoCase" value="AVG">AVG 冒險解謎</find>
 	<find operation="inNoCase" value="RPG">RPG 角色扮演</find>

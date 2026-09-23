@@ -505,8 +505,8 @@
 </games>
 
 <gui>
-<images width="500" height="448">
-<image x="0" y="0" width="180" height="448"/>
+<images width="512" height="448">
+<image x="0" y="0" width="192" height="448"/>
 <image x="181" y="0" width="320" height="448"/>
 </images>
 </gui>

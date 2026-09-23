@@ -9,15 +9,15 @@
 ### 在XML DAT中的位址更新
 
 ```
-<datVersionURL>https://xd9527.github.io/OfflineList_v073_beta95/datas/Taiwan_SuperAcan_AllGame.txt</datVersionURL>
-<datURL fileName="Taiwan_SuperAcan_AllGame.zip">https://xd9527.github.io/OfflineList_v073_beta95/datas/Taiwan_SuperAcan_AllGame.zip</datURL>
+<datVersionURL>https://xd9527.github.io/OfflineList_v073_beta95/datas/Taiwan_SuperAcan_AllGame_beta95.txt</datVersionURL>
+<datURL fileName="Taiwan_SuperAcan_AllGame_beta95.zip">https://xd9527.github.io/OfflineList_v073_beta95/datas/Taiwan_SuperAcan_AllGame_beta95.zip</datURL>
 ```
 
 
 ### 在XML DAT加入雙備援位址
 
 ```
-<datVersionURL>https://xd9527.github.io/OfflineList_v073_beta95/datas/Taiwan_SuperAcan_AllGame.txt;https://xd.9527.tw/offlinelist/Taiwan_SuperAcan_AllGame.txt</datVersionURL>
-<datURL fileName="Taiwan_SuperAcan_AllGame.zip">https://xd9527.github.io/OfflineList_v073_beta95/datas/Taiwan_SuperAcan_AllGame.zip;https://xd.9527.tw/offlinelist/Taiwan_SuperAcan_AllGame.zip</datURL>
+<datVersionURL>https://xd9527.github.io/OfflineList_v073_beta95/datas/Taiwan_SuperAcan_AllGame_beta95.txt;https://3q.9527.tw/gamedb/datas/Taiwan_SuperAcan_AllGame_beta95.txt</datVersionURL>
+<datURL fileName="Taiwan_SuperAcan_AllGame_beta95.zip">https://xd9527.github.io/OfflineList_v073_beta95/datas/Taiwan_SuperAcan_AllGame_beta95.zip;https://3q.9527.tw/gamedb/datas/Taiwan_SuperAcan_AllGame_beta95.zip</datURL>
 ```
 

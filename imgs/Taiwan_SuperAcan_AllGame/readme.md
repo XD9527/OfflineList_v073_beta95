@@ -14,6 +14,6 @@
 ### 在XML DAT加入雙備援位址
 
 ```
-<imURL>https://xd9527.github.io/OfflineList_v073_beta95/imgs/Taiwan_SuperAcan_AllGame/;https://xd.9527.tw/offlinelist/Taiwan_SuperAcan_AllGame_imgs/</imURL>
+<imURL>https://xd9527.github.io/OfflineList_v073_beta95/imgs/Taiwan_SuperAcan_AllGame/</imURL>
 ```
 

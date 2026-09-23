@@ -2,7 +2,7 @@
 
 
 > [!WARNING]
-> 只支援bata95版，原版只能用單一http無SSL的網址
+> 只支援 OfflineList Version 0.7.3 beta95 特仕版 `還在開發中` ，(版只能用單一http無SSL的網址)
 
 ## 以 敦煌 Super A'can 為例
 
@@ -20,4 +20,3 @@
 <datVersionURL>https://xd9527.github.io/OfflineList_v073_beta95/datas/Taiwan_SuperAcan_AllGame_beta95.txt;https://3q.9527.tw/gamedb/datas/Taiwan_SuperAcan_AllGame_beta95.txt</datVersionURL>
 <datURL fileName="Taiwan_SuperAcan_AllGame_beta95.zip">https://xd9527.github.io/OfflineList_v073_beta95/datas/Taiwan_SuperAcan_AllGame_beta95.zip;https://3q.9527.tw/gamedb/datas/Taiwan_SuperAcan_AllGame_beta95.zip</datURL>
 ```
-

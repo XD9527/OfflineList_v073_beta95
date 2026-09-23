@@ -507,7 +507,7 @@
 <gui>
 <images width="512" height="448">
 <image x="0" y="0" width="192" height="448"/>
-<image x="181" y="0" width="320" height="448"/>
+<image x="193" y="0" width="320" height="448"/>
 </images>
 </gui>
 </dat>

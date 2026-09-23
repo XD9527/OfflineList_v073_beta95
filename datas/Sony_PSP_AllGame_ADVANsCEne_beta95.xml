@@ -64,7 +64,7 @@
 	<find operation="inNoCase" value="PDF">PDF 文件合輯</find>
 </to>
 </search>
-<romTitle>%u - %t %n [%y]</romTitle>
+<romTitle>%u [%m] %y %n %t</romTitle>
 </configuration>
 
 <!-- for Game [beta95 Only]  -->

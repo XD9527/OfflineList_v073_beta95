@@ -72,7 +72,7 @@
 	<find operation="inNoCase" value="BIOS">BIOS 檔案</find>
 </to>
 </search>
-<romTitle>%u - %e %n [%s]</romTitle>
+<romTitle>%u [%m] %y %n %t</romTitle>
 </configuration>
 
 <!-- for Game [beta95 Only]  -->

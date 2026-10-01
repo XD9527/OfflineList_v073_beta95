@@ -4,14 +4,13 @@
 <configuration>
 <datName>Super A'can 全遊戲 [beta95版]</datName>
 <imFolder>Taiwan_SuperAcan_AllGame</imFolder>
-<datVersion>20260921</datVersion>
+<datVersion>20261001</datVersion>
 <system>Taiwan Super A'can</system>
 <sizeUnit>bits</sizeUnit><!-- for romSize Bytes / bits [beta95 Only]  -->
 <screenshotsWidth>320</screenshotsWidth>
 <screenshotsHeight>240</screenshotsHeight>
 <infos>
 	<title visible="true" inNamingOption="true" default="true"/>
-	<comment visible="true" inNamingOption="true" default="true"/>
 	<location visible="true" inNamingOption="true" default="true"/>
 	<publisher visible="true" inNamingOption="true" default="true"/>
 	<sourceRom visible="true" inNamingOption="true" default="true"/>
@@ -19,10 +18,11 @@
 	<romSize visible="true" inNamingOption="true" default="true"/>
 	<releaseNumber visible="true" inNamingOption="true" default="true"/>
 	<languages visible="true" inNamingOption="true" default="true"/>
-	<languageNumber visible="true" inNamingOption="true" default="true"/>
-	<romCRC visible="true" inNamingOption="true" default="true"/>
-	<im1CRC visible="true" inNamingOption="false" default="false"/>
-	<im2CRC visible="true" inNamingOption="false" default="false"/>
+	<languageNumber visible="true" inNamingOption="true" default="false"/>
+	<comment visible="true" inNamingOption="true" default="true"/>
+	<romCRC visible="true" inNamingOption="true" default="false"/>
+	<im1CRC visible="false" inNamingOption="false" default="false"/>
+	<im2CRC visible="false" inNamingOption="false" default="false"/>
 </infos>
 <canOpen>
 	<extension>.bin</extension>
@@ -39,14 +39,20 @@
 <to value="location" default="true" auto="true"></to>
 <to value="publisher" default="true" auto="true"></to>
 <to value="sourceRom" default="true" auto="true"></to>
-<to value="languages" default="true" auto="true"></to>
-<to value="saveType" default="true" auto="true"></to>
+<to value="languages" default="false" auto="true"></to>
+<to value="saveType" default="false" auto="true"></to>
 <to value="romSize" default="true" auto="true">
 	<find operation="inNoCase" value="頁">頁數</find>
 	<find operation="=" value="524288">4 Mbits</find>
 	<find operation="=" value="1048576">8 Mbits</find>
 	<find operation="=" value="2097152">16 Mbits</find>
 	<find operation="=" value="3145728">24 Mbits</find>
+</to>
+<to value="players" default="true" auto="true"><!-- for Filter [beta95 Only]  -->
+	<find operation="=" value="1">1P</find>
+	<find operation="=" value="1-2">1P-2P</find>
+	<find operation="=" value="1-3">1P-3P</find>
+	<find operation="=" value="1-4">1P-4P</find>
 </to>
 <to value="yearDate" default="true" auto="true"></to><!-- for Filter [beta95 Only]  -->
 <to value="itemType" default="true" auto="true"><!-- for Filter [beta95 Only]  -->
@@ -72,23 +78,24 @@
 	<find operation="inNoCase" value="BIOS">BIOS 檔案</find>
 </to>
 </search>
-<romTitle>%u [%m] %y %n %t</romTitle>
+<romTitle>%u - %y %n %t [%m]</romTitle>
 </configuration>
 
 <!-- for Game [beta95 Only]  -->
 <translate>
-	<source>開發</source>
+	<source>製作</source>
 	<size>容量</size>
 	<publisher>發行</publisher>
 	<saveType>格式</saveType>
 	<releaseNumber>編號</releaseNumber>
 	<imageNumber>圖號</imageNumber>
-	<location>國家</location>
+	<location>地區</location>
 	<language>語言</language>
 	<title>標題</title>
 	<titleName>名稱</titleName>
 	<itemType>類別</itemType>
 	<yearDate>日期</yearDate>
+	<players>人數</players>
 	<comment>簡介</comment>
 </translate>
 
@@ -98,8 +105,8 @@
 	<source>作者</source>
 	<size>頁數</size>
 	<publisher>出版</publisher>
-	<saveType>格式</saveType>
-	<releaseNumber>集數</releaseNumber>
+	<saveType>ISBN</saveType>
+	<releaseNumber>編號</releaseNumber>
 	<imageNumber>圖號</imageNumber>
 	<location>地區</location>
 	<language>語言</language>
@@ -107,6 +114,7 @@
 	<titleName>書名</titleName>
 	<itemType>分類</itemType>
 	<yearDate>日期</yearDate>
+	<players>集數</players>
 	<comment>簡介</comment>
 </translate>
 -->
@@ -126,6 +134,7 @@
 <location>25</location>
 <sourceRom>敦煌科技</sourceRom>
 <language>4</language>
+<players></players>
 <files>
 <romCRC extension=".jp2">033EFDE6</romCRC>
 <romCRC extension=".jp2">F5683F65</romCRC>
@@ -159,6 +168,7 @@
 <location>25</location>
 <sourceRom>鉅崴科技</sourceRom>
 <language>4</language>
+<players>1-2</players>
 <files>
 <romCRC extension=".bin">B2BF31DC</romCRC>
 </files>
@@ -181,6 +191,7 @@
 <location>25</location>
 <sourceRom>熊貓軟體</sourceRom>
 <language>4</language>
+<players>1-2</players>
 <files>
 <romCRC extension=".bin">A4DE6DDE</romCRC>
 </files>
@@ -203,6 +214,7 @@
 <location>25</location>
 <sourceRom>敦煌科技</sourceRom>
 <language>4</language>
+<players>1</players>
 <files>
 <romCRC extension=".bin">9F6119A7</romCRC>
 </files>
@@ -225,6 +237,7 @@
 <location>25</location>
 <sourceRom>鉅崴科技</sourceRom>
 <language>4</language>
+<players>1</players>
 <files>
 <romCRC extension=".bin">F631383C</romCRC>
 </files>
@@ -247,6 +260,7 @@
 <location>25</location>
 <sourceRom>全崴科技</sourceRom>
 <language>4</language>
+<players>1</players>
 <files>
 <romCRC extension=".bin">CCF6829B</romCRC>
 </files>
@@ -269,6 +283,7 @@
 <location>25</location>
 <sourceRom>敦煌科技</sourceRom>
 <language>4</language>
+<players>1</players>
 <files>
 <romCRC extension=".bin">CEE25EEA</romCRC>
 </files>
@@ -291,6 +306,7 @@
 <location>25</location>
 <sourceRom>精訊資訊</sourceRom>
 <language>4</language>
+<players>1</players>
 <files>
 <romCRC extension=".0">56C1C3FB</romCRC>
 <romCRC extension=".1">FC79F05F</romCRC>
@@ -314,6 +330,7 @@
 <location>25</location>
 <sourceRom>熊貓軟體</sourceRom>
 <language>4</language>
+<players>1-2</players>
 <files>
 <romCRC extension=".bin">DC3B7B84</romCRC>
 </files>
@@ -336,6 +353,7 @@
 <location>25</location>
 <sourceRom>敦煌科技</sourceRom>
 <language>4</language>
+<players>1</players>
 <files>
 <romCRC extension=".bin">AC4FA721</romCRC>
 </files>
@@ -358,6 +376,7 @@
 <location>25</location>
 <sourceRom>敦煌科技</sourceRom>
 <language>4</language>
+<players>1</players>
 <files>
 <romCRC extension=".bin">AED4E4F8</romCRC>
 </files>
@@ -380,6 +399,7 @@
 <location>25</location>
 <sourceRom>熊貓軟體</sourceRom>
 <language>4</language>
+<players>1-2</players>
 <files>
 <romCRC extension=".bin">6099BB44</romCRC>
 </files>
@@ -402,6 +422,7 @@
 <location>25</location>
 <sourceRom>鉅崴科技</sourceRom>
 <language>4</language>
+<players>1</players>
 <files>
 <romCRC extension=".bin">A3469172</romCRC>
 </files>
@@ -425,6 +446,7 @@
 <location>25</location>
 <sourceRom>敦煌科技</sourceRom>
 <language>4</language>
+<players></players>
 <files>
 <romCRC extension=".bin">0BA78597</romCRC>
 </files>
@@ -447,6 +469,7 @@
 <location>25</location>
 <sourceRom>敦煌科技</sourceRom>
 <language>4</language>
+<players></players>
 <files>
 <romCRC extension=".bin">8D575662</romCRC>
 </files>
@@ -469,6 +492,7 @@
 <location>25</location>
 <sourceRom>敦煌科技</sourceRom>
 <language>4</language>
+<players></players>
 <files>
 <romCRC extension=".bin">FC9FB05F</romCRC>
 </files>
@@ -491,6 +515,7 @@
 <location>25</location>
 <sourceRom>敦煌科技</sourceRom>
 <language>4</language>
+<players></players>
 <files>
 <romCRC extension=".bin">BF950AB7</romCRC>
 </files>

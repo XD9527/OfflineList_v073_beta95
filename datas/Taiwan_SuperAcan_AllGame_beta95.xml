@@ -67,7 +67,7 @@
 	<find operation="inNoCase" value="FTG">FTG 格鬥遊戲</find>
 	<find operation="inNoCase" value="MUG">MUG 音樂節奏</find>
 	<find operation="inNoCase" value="RAC">RAC 賽車遊戲</find>
-	<find operation="inNoCase" value="TBG">TBG 牌桌遊戲</find>
+	<find operation="inNoCase" value="TBG">TBG 桌面遊戲</find>
 	<find operation="inNoCase" value="PUZ">PUZ 益智遊戲</find>
 	<find operation="inNoCase" value="SPG">SPG 運動遊戲</find>
 	<find operation="inNoCase" value="RTS">RTS 即時戰略</find>
@@ -151,7 +151,7 @@
 </files>
 <im1CRC>4AC1AE6A</im1CRC>
 <im2CRC>4D977750</im2CRC>
-<comment>Super A'can 使用說明書 含封面共12頁</comment>
+<comment>Super A'can 原廠使用說明書，含封面共12頁</comment>
 <duplicateID>0</duplicateID>
 </game>
 
@@ -197,7 +197,7 @@
 </files>
 <im1CRC>EB91EFE2</im1CRC>
 <im2CRC>DEB4C104</im2CRC>
-<comment>《三國志武將爭霸》是台灣熊貓軟體在1993年發行的一款2D電腦FTG格鬥對戰遊戲，並於1995年推出Super A'can的移植版本；以三國時代為背景，登場人物有曹魏、蜀漢及呂布共12名武將。此遊戲風行一時，為熊貓公司代表作之一。</comment>
+<comment>《三國志武將爭霸》是台灣熊貓軟體於1993年在PC發行，並於1995年移植到Super A'Can主機的一款2D電腦FTG格鬥對戰遊戲；以三國時代為背景，登場人物有曹魏、蜀漢及呂布共12名武將。此遊戲風行一時，為熊貓公司代表作之一。</comment>
 <duplicateID>0</duplicateID>
 </game>
 
@@ -313,7 +313,7 @@
 </files>
 <im1CRC>580551A8</im1CRC>
 <im2CRC>1ABEE10E</im2CRC>
-<comment>超級光明戰史的介紹說明文字</comment>
+<comment>《超級光明戰史》是台灣精訊資訊於1995年在PC發行，並移植到Super A'Can主機的策略角色扮演遊戲(SLG/SRPG)，登場角色相當多，但同時只能12人上戰場，簡單經典的策略戰棋玩法。</comment>
 <duplicateID>0</duplicateID>
 </game>
 
@@ -336,7 +336,7 @@
 </files>
 <im1CRC>F8FC5A0F</im1CRC>
 <im2CRC>073A302D</im2CRC>
-<comment>非洲探險大富翁的介紹說明文字</comment>
+<comment>《非洲探險大富翁》是台灣熊貓軟體於1995年在PC發行，並移植到Super A'Can主機的益智類桌面遊戲，玩法類似大富翁，但加入尋寶元素。玩家有六名人物可以選擇，主要目標在於拿到寶藏及擊敗對手。</comment>
 <duplicateID>0</duplicateID>
 </game>
 

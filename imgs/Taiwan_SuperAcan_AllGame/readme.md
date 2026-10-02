@@ -1,19 +1,13 @@
-## 敦煌 Super A'can 全遊戲圖片庫
+# OfflineList 0.7.3 bata95 專用 敦煌 Super A'can 全遊戲圖片庫
+
 
 > [!WARNING]
-> OfflineList 0.7.3 bata95 專用
-> 只支援bata95版，原版只能用單一http無SSL的網址
+> 只支援 OfflineList Version 0.7.3 beta95 特仕版 `還在開發中` ，(版只能用單一http無SSL的網址)
 
-### 在XML DAT中的位址更新
+## 以 敦煌 Super A'can 為例
 
-```
-<imURL>https://xd9527.github.io/OfflineList_v073_beta95/imgs/Taiwan_SuperAcan_AllGame/</imURL>
-```
-
-
-### 在XML DAT加入雙備援位址
+### 在XML DAT中的位址更新 (beta95限定雙備援位址)
 
 ```
-<imURL>https://xd9527.github.io/OfflineList_v073_beta95/imgs/Taiwan_SuperAcan_AllGame/</imURL>
+<imURL>https://xd9527.github.io/OfflineList_v073_beta95/imgs/Taiwan_SuperAcan_AllGame/;https://3q.9527.tw/gamedb/imgs/Taiwan_SuperAcan_AllGame/</imURL>
 ```
-

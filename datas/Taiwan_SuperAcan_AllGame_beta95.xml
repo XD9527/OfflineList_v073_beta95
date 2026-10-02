@@ -18,7 +18,7 @@
 	<romSize visible="true" inNamingOption="true" default="true"/>
 	<releaseNumber visible="true" inNamingOption="true" default="true"/>
 	<languages visible="true" inNamingOption="true" default="true"/>
-	<languageNumber visible="true" inNamingOption="true" default="false"/>
+	<languageNumber visible="false" inNamingOption="false" default="false"/>
 	<comment visible="true" inNamingOption="true" default="true"/>
 	<romCRC visible="true" inNamingOption="true" default="false"/>
 	<im1CRC visible="false" inNamingOption="false" default="false"/>
@@ -32,7 +32,7 @@
 </canOpen>
 <newDat>
 	<datVersionURL>https://xd9527.github.io/OfflineList_v073_beta95/datas/Taiwan_SuperAcan_AllGame_beta95.txt;https://3q.9527.tw/gamedb/datas/Taiwan_SuperAcan_AllGame_beta95.txt</datVersionURL>
-	<datURL fileName="Taiwan_SuperAcan_AllGame_beta95.zip">https://xd9527.github.io/OfflineList_v073_beta95/datas/Taiwan_SuperAcan_AllGame_beta95.zip;https://3q.9527.tw/gamedb/datas/Taiwan_SuperAcan_AllGame_beta95.zip</datURL>
+	<datURL fileName="Taiwan_SuperAcan_AllGame_beta95.xml">https://xd9527.github.io/OfflineList_v073_beta95/datas/Taiwan_SuperAcan_AllGame_beta95.xml;https://3q.9527.tw/gamedb/datas/Taiwan_SuperAcan_AllGame_beta95.xml</datURL>
 	<imURL>https://xd9527.github.io/OfflineList_v073_beta95/imgs/Taiwan_SuperAcan_AllGame/;https://3q.9527.tw/gamedb/imgs/Taiwan_SuperAcan_AllGame/</imURL>
 </newDat>
 <search>
@@ -131,7 +131,7 @@
 <saveType>jp2</saveType>
 <romSize>12 頁</romSize>
 <publisher>敦煌科技</publisher>
-<location>25</location>
+<location>20</location>
 <sourceRom>敦煌科技</sourceRom>
 <language>4</language>
 <players></players>
@@ -165,7 +165,7 @@
 <saveType>bin</saveType>
 <romSize>1048576</romSize>
 <publisher>敦煌科技</publisher>
-<location>25</location>
+<location>20</location>
 <sourceRom>鉅崴科技</sourceRom>
 <language>4</language>
 <players>1-2</players>
@@ -188,7 +188,7 @@
 <saveType>bin</saveType>
 <romSize>3145728</romSize>
 <publisher>敦煌科技</publisher>
-<location>25</location>
+<location>20</location>
 <sourceRom>熊貓軟體</sourceRom>
 <language>4</language>
 <players>1-2</players>
@@ -197,7 +197,7 @@
 </files>
 <im1CRC>EB91EFE2</im1CRC>
 <im2CRC>DEB4C104</im2CRC>
-<comment>三國志武將爭霸的介紹說明文字</comment>
+<comment>《三國志武將爭霸》是台灣熊貓軟體在1993年發行的一款2D電腦FTG格鬥對戰遊戲，並於1995年推出Super A'can的移植版本；以三國時代為背景，登場人物有曹魏、蜀漢及呂布共12名武將。此遊戲風行一時，為熊貓公司代表作之一。</comment>
 <duplicateID>0</duplicateID>
 </game>
 
@@ -211,7 +211,7 @@
 <saveType>bin</saveType>
 <romSize>2097152</romSize>
 <publisher>敦煌科技</publisher>
-<location>25</location>
+<location>20</location>
 <sourceRom>敦煌科技</sourceRom>
 <language>4</language>
 <players>1</players>
@@ -234,7 +234,7 @@
 <saveType>bin</saveType>
 <romSize>2097152</romSize>
 <publisher>敦煌科技</publisher>
-<location>25</location>
+<location>20</location>
 <sourceRom>鉅崴科技</sourceRom>
 <language>4</language>
 <players>1</players>
@@ -257,7 +257,7 @@
 <saveType>bin</saveType>
 <romSize>2097152</romSize>
 <publisher>敦煌科技</publisher>
-<location>25</location>
+<location>20</location>
 <sourceRom>全崴科技</sourceRom>
 <language>4</language>
 <players>1</players>
@@ -280,7 +280,7 @@
 <saveType>bin</saveType>
 <romSize>2097152</romSize>
 <publisher>敦煌科技</publisher>
-<location>25</location>
+<location>20</location>
 <sourceRom>敦煌科技</sourceRom>
 <language>4</language>
 <players>1</players>
@@ -303,7 +303,7 @@
 <saveType>bin</saveType>
 <romSize>2097152</romSize>
 <publisher>敦煌科技</publisher>
-<location>25</location>
+<location>20</location>
 <sourceRom>精訊資訊</sourceRom>
 <language>4</language>
 <players>1</players>
@@ -327,7 +327,7 @@
 <saveType>bin</saveType>
 <romSize>1048576</romSize>
 <publisher>敦煌科技</publisher>
-<location>25</location>
+<location>20</location>
 <sourceRom>熊貓軟體</sourceRom>
 <language>4</language>
 <players>1-2</players>
@@ -350,7 +350,7 @@
 <saveType>bin</saveType>
 <romSize>2097152</romSize>
 <publisher>敦煌科技</publisher>
-<location>25</location>
+<location>20</location>
 <sourceRom>敦煌科技</sourceRom>
 <language>4</language>
 <players>1</players>
@@ -373,7 +373,7 @@
 <saveType>bin</saveType>
 <romSize>2097152</romSize>
 <publisher>敦煌科技</publisher>
-<location>25</location>
+<location>20</location>
 <sourceRom>敦煌科技</sourceRom>
 <language>4</language>
 <players>1</players>
@@ -396,7 +396,7 @@
 <saveType>bin</saveType>
 <romSize>524288</romSize>
 <publisher>敦煌科技</publisher>
-<location>25</location>
+<location>20</location>
 <sourceRom>熊貓軟體</sourceRom>
 <language>4</language>
 <players>1-2</players>
@@ -419,7 +419,7 @@
 <saveType>bin</saveType>
 <romSize>2097152</romSize>
 <publisher>敦煌科技</publisher>
-<location>25</location>
+<location>20</location>
 <sourceRom>鉅崴科技</sourceRom>
 <language>4</language>
 <players>1</players>
@@ -443,7 +443,7 @@
 <saveType>bin</saveType>
 <romSize>16</romSize>
 <publisher>敦煌科技</publisher>
-<location>25</location>
+<location>20</location>
 <sourceRom>敦煌科技</sourceRom>
 <language>4</language>
 <players></players>
@@ -466,7 +466,7 @@
 <saveType>bin</saveType>
 <romSize>4096</romSize>
 <publisher>敦煌科技</publisher>
-<location>25</location>
+<location>20</location>
 <sourceRom>敦煌科技</sourceRom>
 <language>4</language>
 <players></players>
@@ -489,7 +489,7 @@
 <saveType>bin</saveType>
 <romSize>8192</romSize>
 <publisher>敦煌科技</publisher>
-<location>25</location>
+<location>20</location>
 <sourceRom>敦煌科技</sourceRom>
 <language>4</language>
 <players></players>
@@ -512,7 +512,7 @@
 <saveType>bin</saveType>
 <romSize>8192</romSize>
 <publisher>敦煌科技</publisher>
-<location>25</location>
+<location>20</location>
 <sourceRom>敦煌科技</sourceRom>
 <language>4</language>
 <players></players>
